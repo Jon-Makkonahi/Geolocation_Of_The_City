@@ -10,7 +10,7 @@ def desired_location(word):
 
 def address_coordinates(address):
     result = dadata.suggest(url, address, language=language, count=1)
-    return('широта ' + str(result[0]['data']['geo_lat']) + ' долгота ' + str(result[0]['data']['geo_lon']))
+    return('широта ' + str(result['data']['geo_lat']) + ' долгота ' + str(result['data']['geo_lon']))
 
 
 def gui():
