@@ -13,7 +13,7 @@ def address_coordinates(address):
     return('широта ' + str(result[0]['data']['geo_lat']) + ' долгота ' + str(result[0]['data']['geo_lon']))
 
 
-if __name__ == "__main__":
+def GUI():
     print('-----------------------------------------------------------')
     print('Добро пожаловать!')
     while True:
@@ -34,3 +34,6 @@ if __name__ == "__main__":
         print('-----------------------------------------------------------')
         address = input()
         print(address_coordinates(address))
+
+if __name__ == "__main__":
+    GUI()
