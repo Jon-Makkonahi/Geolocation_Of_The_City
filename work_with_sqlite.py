@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-TOKEN = os.getenv('TOKEN', default='dly_proverki_soydet_i_takou')
+TOKEN = os.getenv('TOKEN')
 ADDRESS = os.getenv('ADDRESS', default='address')
 LANGUAGE = 'ru'
 
