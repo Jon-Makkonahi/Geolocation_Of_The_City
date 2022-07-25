@@ -32,4 +32,4 @@ pip install -r requirements.txt
 TOKEN='Cюда вставьте API-ключ который находится у вас в личном кабинете на сайте dadata.ru'
 ```
 6. Запустите скрипт work_with_sqlite.py
-7. Запустите программу и пользуйтесь)
+7. Запустите программу  geolocation_of_the_city.py и пользуйтесь)
